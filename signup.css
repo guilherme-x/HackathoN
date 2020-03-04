@@ -1,0 +1,100 @@
+#logo{
+    background-color: black;
+    color: blueviolet;
+    text-align: center;
+    border: solid 10px blueviolet;
+    margin:2% auto 2% auto;
+    font-size:300%;
+    width:25%;
+    font-family: 'Open Sans Condensed';
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+#att{
+    color:black;
+    margin: 0 auto 3px auto;
+    width: 20%;
+    background-color: blueviolet;
+}
+input#but{
+    color: blueviolet;
+    height: 8%;
+    width:50%;
+    font-size: 200%;
+    text-align:center;
+    margin: 5% auto 0 auto;
+    background-color: black;
+    border:solid 3px blueviolet;
+    border-radius: 40px;
+    transition: color 0.2s;
+    transition: background-color 0.2s;
+    transition-timing-function: ease-in-out;
+}
+h2:first-child{
+    margin-top: 0%;
+}
+html{
+    background-image: url("1.png");
+}
+#container{
+    background-color: black;
+    text-align: center;
+    margin: 1% auto 12% auto;
+    width: 40%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+@media (max-width: 980px){
+    html{
+        background-image: url("1mobile.png");
+    }
+    #logo{
+        border: solid 20px blueviolet;
+        margin:10% auto 10% auto;
+        font-size:600%;
+        width:50%;
+        font-family: 'Open Sans Condensed';
+}
+    #container{
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    h2{
+        color: rgb(150, 49, 245);
+        font-family: monospace;
+        font-variant: small-caps;
+        font-size:500%;
+        text-align: center;
+        margin: 40px auto 50px auto;
+    }
+    input{
+        width: 80%;
+        height: 8%;
+        font-size:300%;
+        text-align: center;
+        font-family: monospace;
+        border-radius: 10px;
+        border-style: none;
+    }
+    input#but{
+        color: blueviolet;
+        height: 8%;
+        width:80%;
+        font-size: 400%;
+        text-align:center;
+        margin: 10% auto 0 auto;
+        background-color: black;
+        border:solid 10px blueviolet;
+        border-radius: 40px;
+    }
+    footer{
+        margin: 20px auto 0 auto;
+        height:10%;
+        position: static;
+       
+    }
+}
